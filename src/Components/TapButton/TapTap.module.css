@@ -6,7 +6,7 @@
     width: 50vh;
     position: fixed;
     top: calc(50% - 25vh);
-    left: calc(52.5% - 25vh);
+    left: calc(50% - 25vh);
 }
 
 .button-tap:hover {

@@ -20,6 +20,7 @@ const TapTap = (props) => {
     setTapImg(After);
     clearTimeout(resetter);
     resetter = setTimeout(() => setTapImg(Before), 500);
+    props.onTap()
     soundNumber++
   };
 
