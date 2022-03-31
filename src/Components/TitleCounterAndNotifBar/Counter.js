@@ -5,7 +5,7 @@ const Counter = (props) => {
   return (
     <React.Fragment>
       {ReactDOM.createPortal(
-        <div className={style.counter}>You have tapped {props.tapTime}times</div>,
+        <div className={style.counter}>You have tapped {props.tapTime} times</div>,
         document.getElementById("root2")
       )}
     </React.Fragment>

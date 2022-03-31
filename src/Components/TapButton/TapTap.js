@@ -6,7 +6,7 @@ import SfxPipik from "./SfxPipik.mp3";
 
 const TapTap = (props) => {
   const [tapImg, setTapImg] = useState(Before);
-  let resetter;
+  let resetter = [];
 
   let SFX = [];
   for (let i = 0; i < 10; i++) {
@@ -16,12 +16,13 @@ const TapTap = (props) => {
   let soundNumber = 0;
 
   const tapHandler = () => {
-    SFX[soundNumber].play()
-    setTapImg(After);
-    clearTimeout(resetter);
-    resetter = setTimeout(() => setTapImg(Before), 500);
-    props.onTap()
-    soundNumber++
+    SFX[soundNumber].play();
+    setTimeout(() => {
+      setTapImg(After);
+      resetter.push(setTimeout(() => setTapImg(Before), 500));
+      props.onTap();
+      soundNumber++;
+    }, 100);
   };
 
   return (

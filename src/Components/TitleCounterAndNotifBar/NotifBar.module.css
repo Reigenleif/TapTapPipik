@@ -2,4 +2,5 @@
     font: 1.5rem arial;
     color : #282930;
     text-align: center;
+    text-shadow: -0.4px 0 white, 0 0.4px white, 0.4px 0 white, 0 -0.4px white;
 }

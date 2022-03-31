@@ -1,14 +1,23 @@
 .button-tap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-    width: 50vh;
-    position: fixed;
-    top: calc(50% - 25vh);
-    left: calc(50% - 25vh);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 50vh;
+  position: fixed;
+  top: calc(50% - 25vh);
+  left: calc(50% - 25vh);
 }
 
 .button-tap:hover {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .button-tap {
+    height: 70vh;
+    width: 70vh;
+    top: calc(50% - 35vh);
+  left: calc(50% - 35vh);
+  }
 }

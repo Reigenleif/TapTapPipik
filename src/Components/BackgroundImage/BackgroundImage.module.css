@@ -1,8 +1,8 @@
 .image {
-  height: 50vh;
-  width: 50vh;
+  height: 100vh;
+  width: 100vh;
   position: fixed;
-  top: calc(40% - 20vh);
-  left: calc(47.5% - 20vh);
+  top: calc(50% - 50vh);
+  left: calc(50% - 50vh);
   z-index: -100;
 }
