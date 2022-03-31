@@ -17,7 +17,7 @@
   .button-tap {
     height: 70vh;
     width: 70vh;
-    top: calc(50% - 35vh);
+    top: calc(60% - 35vh);
   left: calc(50% - 35vh);
   }
 }
