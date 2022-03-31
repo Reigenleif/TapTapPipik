@@ -1,0 +1,8 @@
+.image {
+  height: 50vh;
+  width: 50vh;
+  position: fixed;
+  top: calc(40% - 20vh);
+  left: calc(50% - 20vh);
+  z-index: -100;
+}
