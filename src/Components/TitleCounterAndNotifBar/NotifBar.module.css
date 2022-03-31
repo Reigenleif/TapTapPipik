@@ -1,6 +1,6 @@
 .notifbar {
     font: 1.5rem arial;
-    color : #282930;
+    color : white;
     text-align: center;
-    text-shadow: -0.4px 0 white, 0 0.4px white, 0.4px 0 white, 0 -0.4px white;
+    text-shadow: -2px 0 #282930, 0 2px #282930, 2px 0 #282930, 0 2px #282930;
 }
